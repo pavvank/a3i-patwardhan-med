@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PatwardhanMed Consulting</title>
+    <link rel="stylesheet" href="./resources/css/bulma.min.css" />
+    <link rel="stylesheet" href="./resources/css/contact.styles.css" />
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+    <link rel="stylesheet" href="./resources/css/swiper-bundle.min.css" />
+
+    <script src="./resources/js/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar is-spaced has-shadow is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://patwardhanmed.consulting/">
+          <img src="./resources/assets/logo.svg" alt="Patwardhanmed consulting logo" />
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item is-tab" href="./index.html"> About </a>
+          <a class="navbar-item is-tab" href="./network.html"> Network </a>
+          <a class="navbar-item is-tab" href="./work.html"> Work </a>
+          <a class="navbar-item is-active is-tab" href="./contact.html"> Contact </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              <div class="buttons">
+                <button class="button is-small">
+                  <span class="icon is-small">
+                    <img src="./resources/assets/lang/germany.png" class="lang-logo" />
+                  </span>
+                  <span>DE</span>
+                </button>
+              </div>
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                <div class="buttons">
+                  <button class="button is-small">
+                    <span class="icon is-small">
+                      <img src="./resources/assets/lang/germany.png" class="lang-logo" />
+                    </span>
+                    <span>DE</span>
+                  </button>
+                </div>
+              </a>
+              <a class="navbar-item">
+                <div class="buttons">
+                  <button class="button is-small">
+                    <span class="icon is-small">
+                      <img src="./resources/assets/lang/usa.png" class="lang-logo" />
+                    </span>
+                    <span>EN</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact -->
+    <div class="container">
+      <div class="hero">
+        <div class="hero-body">
+          <h1 class="title">Contact</h1>
+          <h2>Get in touch with us</h2>
+          <p>
+            Don't miss out on the opportunity to connect with us. Reach out today to discuss your needs and discover how we can assist you
+            in achieving your goals.
+          </p>
+          <div class="columns" style="padding-top: 2rem">
+            <div class="column">
+              <div class="pc-contact-grid">
+                <div class="pc-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9999999999995!2d13.4050!3d52.5200!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851e3b0b0b0b0%3A0x0!2zNTLCsDMxJzEyLjAiTiAxM8KwMjQnMTguMCJF!5e0!3m2!1sen!2sde!4v1616581234567!5m2!1sen!2sde"
+                    height="350"
+                    width="100%"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></iframe>
+                </div>
+                <div class="pc-center-vertical">
+                  <img class="pc-image-icon" src="./resources/assets/icon/location.png" alt="location" />
+                </div>
+                <div>
+                  <p class="subtitle pc-subtitle">
+                    Behind Palace <br />
+                    Karlsruhe, DE <br />
+                    71234 <br />
+                  </p>
+                </div>
+
+                <!-- Mobile -->
+                <div class="pc-center-vertical">
+                  <img class="pc-image-icon" src="./resources/assets/icon/telephone.png" alt="mobile" />
+                </div>
+                <div>
+                  <p>
+                    <a class="subtitle pc-subtitle" href="tel:+491608137497">+49 160 813-7497</a>
+                  </p>
+                </div>
+
+                <!-- Email -->
+                <div class="pc-center-vertical">
+                  <img class="pc-image-icon" src="./resources/assets/icon/mail.png" alt="mobile" />
+                </div>
+                <div>
+                  <p>
+                    <a class="subtitle pc-subtitle" href="mailto:info@patwardhanmed.consulting">info@patwardhanmed.consulting</a>
+                  </p>
+                </div>
+
+                <!-- End contact info data -->
+              </div>
+            </div>
+            <!-- Contact form -->
+            <div class="column">
+              <div class="pc-contact-form">
+                <div class="field">
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Enter your name" />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Enter the subject" />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input class="input" type="email" placeholder="Enter your email" />
+                    </div>
+                    <p class="help is-danger">This email is invalid</p>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <div class="control">
+                      <textarea class="textarea" name="message" placeholder="Enter your message"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <div class="control">
+                    <label class="checkbox">
+                      <input type="checkbox" />
+                      I agree to the <a href="#">terms and conditions</a> and acknowledge that my personal data will be processed in
+                      accordance with the <a href="#">GDPR</a>.
+                    </label>
+                  </div>
+                </div>
+
+                <div class="field is-grouped" style="justify-content: center">
+                  <div class="control">
+                    <button class="button is-link">Submit</button>
+                  </div>
+                  <div class="control">
+                    <button class="button is-danger is-outlined">Cancel</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact form end -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="navbar is-black">
+      <div class="columns" style="width: 100%">
+        <div class="column is-half">
+          <div class="pc-footer-col">
+            <img src="./resources/assets/logo.svg" alt="Patwardhanmed consulting logo" style="max-width: 300px" />
+            <div>
+              Behind Palace <br />
+              Karlsruhe, DE <br />
+              71234
+            </div>
+            <div>
+              <a class="subtitle pc-subtitle" href="tel:+491608137497">+49 160 813-7497</a>
+            </div>
+            <div>
+              <a class="subtitle pc-subtitle" href="mailto:info@patwardhanmed.consulting">info@patwardhanmed.consulting</a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="pc-footer-col">
+            <div class="pc-footer-nav">
+              <ul>
+                <li><a class="subtitle pc-subtitle" href="./index.html">About</a></li>
+                <li><a class="subtitle pc-subtitle" href="./network.html">Network</a></li>
+                <li><a class="subtitle pc-subtitle" href="./work.html">Work</a></li>
+                <li><a class="subtitle pc-subtitle" href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="pc-social-icons">
+              <a href="https://www.twitter.com" target="_blank">
+                <img src="./resources/assets/icon/twitter.png" alt="Twitter" />
+              </a>
+              <a href="https://www.linkedin.com" target="_blank">
+                <img src="./resources/assets/icon/linkedin.png" alt="LinkedIn" />
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="./resources/assets/icon/instagram.png" alt="Instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p class="has-text-centered">© 2024 PatwardhanMed Consulting. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        direction: "horizontal",
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
