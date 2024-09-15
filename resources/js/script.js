@@ -21,9 +21,17 @@ document.addEventListener("DOMContentLoaded", () => {
     direction: "horizontal",
     loop: true,
     autoplay: {
-      delay: 2000,
+      delay: 4000,
       disableOnInteraction: false,
       pauseOnMouseEnter: false,
+    },
+    effect: 'coverflow',
+    coverflowEffect: {
+      depth: 10000,
+      rotate: 500,
+      scale:2,
+      stretch: 1,
+      slideShadows: true,
     },
     pagination: {
       el: ".swiper-pagination",
