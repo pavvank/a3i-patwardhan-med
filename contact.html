@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PatwardhanMed Consulting</title>
+    <link rel="icon" type="image/x-icon" href="./resources/assets/icon/favicon.ico" />
     <link rel="stylesheet" href="./resources/css/bulma.min.css" />
     <link rel="stylesheet" href="./resources/css/contact.styles.css" />
     <link rel="stylesheet" href="./resources/css/styles.css" />
@@ -31,7 +32,7 @@
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
           <a class="navbar-item is-tab" href="./index.html"> About </a>
-          <a class="navbar-item is-tab" href="./network.html"> Network </a>
+          <a class="navbar-item is-tab" href="./network.html"> People </a>
           <a class="navbar-item is-tab" href="./work.html"> Work </a>
           <a class="navbar-item is-active is-tab" href="./contact.html"> Contact </a>
 
@@ -80,10 +81,7 @@
         <div class="hero-body">
           <h1 class="title">Contact</h1>
           <h2>Get in touch with us</h2>
-          <p>
-            Don't miss out on the opportunity to connect with us. Reach out today to discuss your needs and discover how we can assist you
-            in achieving your goals.
-          </p>
+
           <div class="columns" style="padding-top: 2rem">
             <div class="column">
               <div class="pc-contact-grid">
@@ -102,9 +100,8 @@
                 </div>
                 <div>
                   <p class="subtitle pc-subtitle">
-                    Behind Palace <br />
                     Karlsruhe, DE <br />
-                    71234 <br />
+                    76344 <br />
                   </p>
                 </div>
 
@@ -124,7 +121,7 @@
                 </div>
                 <div>
                   <p>
-                    <a class="subtitle pc-subtitle" href="mailto:info@patwardhanmed.consulting">info@patwardhanmed.consulting</a>
+                    <a class="subtitle pc-subtitle" href="mailto:info@patwardhanmed.consulting">info [@] patwardhanmed.consulting</a>
                   </p>
                 </div>
 
@@ -134,35 +131,39 @@
             <!-- Contact form -->
             <div class="column">
               <div class="pc-contact-form">
+
+                  <form action="mailto:info@patwardhanmed.consulting" method="post" enctype="text/plain">
+
+
                 <div class="field">
                   <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
-                      <input class="input" type="text" placeholder="Enter your name" />
-                    </div>
-                  </div>
-
-                  <div class="field">
-                    <label class="label">Subject</label>
-                    <div class="control">
-                      <input class="input" type="text" placeholder="Enter the subject" />
+                      <input class="input" type="text" placeholder="Enter your name" required name="Name"/>
                     </div>
                   </div>
 
                   <div class="field">
                     <label class="label">Email</label>
                     <div class="control">
-                      <input class="input" type="email" placeholder="Enter your email" />
+                      <input class="input" type="text" placeholder="Enter your email" required name="Email"/>
                     </div>
-                    <p class="help is-danger">This email is invalid</p>
                   </div>
+
+                  <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Enter the subject" required name="Subject"/>
+                    </div>
+                  </div>
+
                 </div>
 
                 <div class="field">
                   <label class="label">Message</label>
                   <div class="control">
                     <div class="control">
-                      <textarea class="textarea" name="message" placeholder="Enter your message"></textarea>
+                      <textarea class="textarea" name="message" placeholder="Enter your message" required name="Message"></textarea>
                     </div>
                   </div>
                 </div>
@@ -179,7 +180,7 @@
 
                 <div class="field is-grouped" style="justify-content: center">
                   <div class="control">
-                    <button class="button is-link">Submit</button>
+                    <button class="button is-link" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
                   </div>
                   <div class="control">
                     <button class="button is-danger is-outlined">Cancel</button>
@@ -200,16 +201,22 @@
         <div class="column is-half">
           <div class="pc-footer-col">
             <img src="./resources/assets/logo.svg" alt="Patwardhanmed consulting logo" style="max-width: 300px" />
+              <!---
+              <a href="https://www.twitter.com" target="_blank">
+                <img src="./resources/assets/icon/twitter.png" alt="Twitter" />
+              </a>
+              --->
+              <a href="https://www.linkedin.com/company/patwardhanmed-consulting" target="_blank">
+                <img src="./resources/assets/icon/linkedin.png" alt="LinkedIn" />
+              </a>
             <div>
-              Behind Palace <br />
               Karlsruhe, DE <br />
-              71234
             </div>
             <div>
               <a class="subtitle pc-subtitle" href="tel:+491608137497">+49 160 813-7497</a>
             </div>
             <div>
-              <a class="subtitle pc-subtitle" href="mailto:info@patwardhanmed.consulting">info@patwardhanmed.consulting</a>
+              <a class="subtitle pc-subtitle" href="mailto:info@patwardhanmed.consulting">info @ patwardhanmed.consulting</a>
             </div>
           </div>
         </div>
@@ -218,22 +225,22 @@
             <div class="pc-footer-nav">
               <ul>
                 <li><a class="subtitle pc-subtitle" href="./index.html">About</a></li>
-                <li><a class="subtitle pc-subtitle" href="./network.html">Network</a></li>
+                <li><a class="subtitle pc-subtitle" href="./network.html">People</a></li>
                 <li><a class="subtitle pc-subtitle" href="./work.html">Work</a></li>
                 <li><a class="subtitle pc-subtitle" href="./contact.html">Contact</a></li>
               </ul>
             </div>
 
             <div class="pc-social-icons">
+              <!---
               <a href="https://www.twitter.com" target="_blank">
                 <img src="./resources/assets/icon/twitter.png" alt="Twitter" />
               </a>
-              <a href="https://www.linkedin.com" target="_blank">
+              --->
+              <a href="https://www.linkedin.com/company/patwardhanmed-consulting" target="_blank">
                 <img src="./resources/assets/icon/linkedin.png" alt="LinkedIn" />
               </a>
-              <a href="https://www.instagram.com" target="_blank">
-                <img src="./resources/assets/icon/instagram.png" alt="Instagram" />
-              </a>
+
             </div>
           </div>
         </div>
