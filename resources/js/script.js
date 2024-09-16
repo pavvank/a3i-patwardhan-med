@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     coverflowEffect: {
       depth: 10000,
       rotate: 500,
-      scale:2,
+      scale:3,
       stretch: 1,
       slideShadows: true,
     },
